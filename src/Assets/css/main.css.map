@@ -1,0 +1,28 @@
+{
+    "version": 3,
+    "mappings": "AYAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,KAAK,CAAA,UAAU;CACzB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/abstrtacts/_mixins.scss",
+        "../sass/abstrtacts/_variables.scss",
+        "../sass/base/_reset.scss",
+        "../sass/base/_typography.scss",
+        "../sass/components/_buttons.scss",
+        "../sass/components/_carousel.scss",
+        "../sass/components/_cover.scss",
+        "../sass/components/_dropdown.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/layout/_forms.scss",
+        "../sass/layout/_grid.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_navigation.scss",
+        "../sass/layout/_sidebar.scss",
+        "../sass/pages/_contact.scss",
+        "../sass/pages/_home.scss",
+        "../sass/themes/_admin.scss",
+        "../sass/themes/_theme.scss",
+        "../sass/vendors/_bootstrap.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
