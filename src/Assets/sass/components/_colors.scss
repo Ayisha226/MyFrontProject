@@ -1,0 +1,101 @@
+.c-white{
+    color: white;
+}
+.c-dark{
+    color: black;
+}
+.c-navy{
+  color:  rgb(100,142,186);
+}
+.c-violett{
+    color: rgb(94,114,228);
+}
+.bg-white{
+    background-color: white;
+}
+
+.c-greeng{
+   color: rgb(45,206,137);
+}
+
+.cl-blue{
+  color:  rgb(17,205,239);
+}
+
+.l-blue{
+    background-color: rgb(17,205,239);
+}
+
+.l-green{
+    background-color: rgb(45,206,137);
+}
+
+.cl-green{
+    color: rgb(45,206,137);
+}
+
+.cl-orng{
+  color: rgb(251,99,64);
+}
+
+.cl-pnk{
+    color:  rgb(245,54,92);
+}
+
+.orng{
+    background-color: rgb(251,99,64);
+}
+
+
+
+.pnk{
+    background-color: rgb(245,54,92);
+}
+.bc-white{
+    background-color: white;
+
+}
+.c-violet{
+    border: 1px solid rgb(94,114,228) ;
+    &:hover{
+        background-color: rgb(94,114,228);
+        color: white;
+    }
+}
+
+.c-blue{
+    color:rgb(17,205,239);
+    border: 1px solid  rgb(17,205,239); 
+    &:hover{
+        background-color:  rgb(17,205,239);
+        color: white;
+    }
+
+}
+
+.c-green{
+    color:rgb(45,206,137);
+    border: 1px solid  rgb(45,206,137); 
+    &:hover{
+        background-color:  rgb(45,206,137);
+        color: white;
+    }
+}
+
+.c-orng{
+    color:rgb(251,99,64);
+    border: 1px solid  rgb(251,99,64); 
+    &:hover{
+        background-color:  rgb(251,99,64);
+        color: white;
+    }
+}
+
+.c-pnk{
+    color:rgb(245,54,92);
+    border: 1px solid  rgb(245,54,92); 
+    &:hover{
+        background-color:  rgb(245,54,92);
+        color: white;
+    }
+}

@@ -1,0 +1,85 @@
+
+.dwnld-btn{
+    border: 1px solid rgb(209, 209, 209);
+    color: #5e72e4;
+    font-family: sans-serif;
+    letter-spacing: .025em;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    font-size: .875rem;
+    
+    
+    
+}
+
+
+.dwnld-btn span{
+    margin-right: 5px;
+    
+
+}
+
+
+
+.dwnld-btn:hover{
+    transform: translateY(-5px);
+    color: rgb(0, 0, 0)!important;
+}
+
+.dwnld-btn:not(:disabled):not(.disabled){
+    cursor: pointer;
+   
+}
+
+.main-dwnld-btns{
+    .main-dwnld-btn-1{
+    border: 1 px solid rgb(255, 255, 255)!important;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+}
+
+
+.main-dwnld-btn-2{
+    border: 1px solid black !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-example{
+   
+    background-color: #5e72e4;
+    border-color: #5e72e4;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+   
+    
+}
+.button-example-color{
+    text-decoration: none;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+}
+.button-example:hover{
+    color: white;
+}
+
+.small-button{
+    padding: 2px 4px!important;
+}
+
+.hover{
+    :hover{
+        color: black;
+    }
+}
+
+
+

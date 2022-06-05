@@ -4,18 +4,20 @@
 @import"./base/_reset";
 @import"./base/_typography";
 
-@import"./components/_buttons";
+@import "./components/buttons";
 @import"./components/_carousel";
 @import"./components/_cover";
 @import"./components/_dropdown";
+@import"./components/_colors";
 
 
 @import"./layout/_footer";
 @import"./layout/_forms";
 @import"./layout/_grid";
 @import"./layout/header";
-@import"./layout/_navigation";
+@import"./layout/navigation";
 @import"./layout/_sidebar";
+@import "./layout/main";
 
 
 @import"./pages/_contact";

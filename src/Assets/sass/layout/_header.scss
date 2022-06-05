@@ -1,3 +1,15 @@
-.nav-link{
-    color: black!important;
+.header{
+    z-index: 10;
+    background: transparent!important;
+}
+
+.full-screen{
+    width: 100%;
+    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+}
+
+@media(min-width:1200px){
+    .container{
+        width: 1040px!important;
+    }
 }
