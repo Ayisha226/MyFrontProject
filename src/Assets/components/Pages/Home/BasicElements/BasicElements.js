@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../../../../Assets/css/main.css'
-import DownloadBtn from '../../../Buttons/DownloadBtn'
+import DownloadBtn from '../../../Buttons/DownloadBtn';
 import {FiShoppingBag} from  'react-icons/fi';
 
 function BasicElements() {

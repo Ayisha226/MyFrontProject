@@ -6,6 +6,10 @@
   width: 30%;
 }
 
+.w-40 {
+  width: 50px;
+}
+
 .w-10 {
   width: 10%;
 }
@@ -32,6 +36,30 @@
 
 .fs-7 {
   font-size: 12px !important;
+}
+
+.display-title-1 {
+  font-size: 3rem !important;
+  font-weight: 600 !important;
+  line-height: 3.5 !important;
+}
+
+.display-title-2 {
+  font-size: 2.75rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5rem !important;
+}
+
+.display-title-3 {
+  font-size: 2.1875rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+}
+
+.display-title-4 {
+  font-size: 1.6275rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
 }
 
 .dwnld-btn {
@@ -99,6 +127,27 @@
 
 .hover :hover {
   color: black;
+}
+
+.radius {
+  border-radius: 0.25rem;
+}
+
+.button-example-btn {
+  text-decoration: none;
+  border-radius: 0.25rem;
+  padding: 5px;
+  display: inline-block;
+}
+
+.modalbtns {
+  padding: 0.6rem 8rem !important;
+}
+
+.carousel {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
 }
 
 .c-white {
@@ -210,9 +259,52 @@
   color: white;
 }
 
+.b-green {
+  border: 1px solid #2dce89;
+  color: 1px solid #2dce89;
+}
+
+.b-grey {
+  background-color: #f4f5f7 !important;
+}
+
+.bg-prim {
+  background-color: #5e72e4;
+}
+
+.bg-green {
+  background-color: #2dce89;
+}
+
+.bg-dblue {
+  background-color: #0b2d41;
+}
+
+.c-dblue {
+  color: #0b2d41;
+}
+
+.c-gray {
+  color: gray;
+}
+
 .header {
-  z-index: 10;
-  background: transparent !important;
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: 0.15s all linear;
+}
+
+.header.sticky {
+  top: 0;
+  left: 0;
+  background-color: #172b4d;
+}
+
+.header.hide {
+  top: -80px;
 }
 
 .full-screen {
@@ -257,6 +349,28 @@ ul {
   color: #b6b6b6;
 }
 
+.drop-down {
+  padding-right: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: white !important;
+}
+
+.drop-downs a:hover {
+  color: #b6b6b6 !important;
+}
+
+.logbg {
+  background-color: #6f83ee;
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+}
+
+.card {
+  transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+  margin-top: 150px;
+  background-color: #f4f5f7;
+}
+
 .main {
   clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
 }
@@ -280,5 +394,87 @@ ul {
 .span-150 {
   height: 150px;
   width: 150px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-top: 1.5rem;
+}
+
+.TabsHeader {
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 0.6rem 2.8rem;
+  font-size: 13px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+
+.TabsContent {
+  font-size: .875rem;
+  width: 450px;
+  border: solid #f4f5f7 1px;
+  padding: 0.6rem 2.3rem;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+
+.TabsContent p {
+  font-weight: 300;
+  line-height: 1.7;
+  font-family: "open sans" sans-serif;
+}
+
+.progress {
+  width: 100%;
+  height: 8px !important;
+}
+
+.task-progress {
+  height: 30px;
+  font-size: 15px;
+  background-color: #eff1fc !important;
+}
+
+.shape {
+  background-color: #6f83ee;
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.shapetext {
+  margin-top: 200px;
+}
+
+.textshape {
+  padding: 1.25rem !important;
+  font-size: 1.25rem !important;
+  font-weight: 300 !important;
+  line-height: 1.7 !important;
+}
+
+.h1shape {
+  font-size: 2.5rem !important;
+  margin-left: 20px !important;
+  font-weight: lighter !important;
+}
+
+.componenstsbtn {
+  border: solid 1px !important;
+  border: none !important;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-size: .875rem;
+  padding: 0.6rem 1.8rem;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.sp {
+  font-size: 2.5rem !important;
+  margin-left: 20px !important;
 }
 /*# sourceMappingURL=main.css.map */

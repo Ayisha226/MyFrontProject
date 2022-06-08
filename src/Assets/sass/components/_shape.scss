@@ -1,0 +1,39 @@
+.shape{
+    background-color: #6f83ee;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.shapetext{
+    margin-top: 200px;
+}
+
+.textshape{
+    padding: 1.25rem !important;
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+}
+
+.h1shape{
+    font-size: 2.5rem !important;
+    margin-left: 20px !important;
+    font-weight: lighter !important;
+}
+
+.componenstsbtn{
+    border: solid 1px !important;
+    border: none !important;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: .875rem;
+    padding: 0.6rem 1.8rem;
+    border-radius: 5px;
+    color: #000000;
+    font-weight:600;
+    margin-left: 18px;
+}
+.sp{
+    font-size: 2.5rem !important;
+    margin-left: 20px !important;
+   
+}

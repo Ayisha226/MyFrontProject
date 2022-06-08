@@ -28,4 +28,27 @@ color: rgb(182, 182, 182);
     color: rgb(182, 182, 182);
 }
 
+.drop-down{
+    padding-right: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white!important;
+}
 
+.drop-downs a:hover{
+    color: rgb(182, 182, 182)!important;
+}
+
+
+.logbg{
+    background-color: #6f83ee;
+    clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+}
+
+.card{
+    transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+    margin-top: 150px;
+    background-color: #f4f5f7;
+
+
+}

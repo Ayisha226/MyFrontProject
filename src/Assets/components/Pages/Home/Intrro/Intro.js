@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../../../Assets/css/main.css'
 import DownloadBtn from '../../../Buttons/DownloadBtn'
-import Logo from '../../../Header/NavZone/Logo'
+import Logo from '../../../Header/Nav/Logo'
 import{AiFillGithub} from 'react-icons/ai'
 import {BsFillCloudArrowDownFill} from 'react-icons/bs'
 import TimLogo from '../../../../Images/creativetim-white-slim.webp'

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../../../../Assets/css/main.css'
 
-const Input=({iClass,iDisabled,iPlaceholder,label,iType,id,value,onChange,role})=>{
+const Input=({iClass,iDisabled,iPlaceholder,label,iType,id,value,onChange,role,divClass})=>{
   return (
-    <div class='form-group'>
+    <div class={divClass}>
     <input
     class={iClass}
     Labe disabled={iDisabled}
@@ -13,6 +13,7 @@ const Input=({iClass,iDisabled,iPlaceholder,label,iType,id,value,onChange,role})
     checked={value}
     onChange={onChange}
     role={role}
+
 
     
     />

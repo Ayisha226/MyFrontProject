@@ -1,15 +1,29 @@
-.header{
-    z-index: 10;
-    background: transparent!important;
-}
-
-.full-screen{
+.header {
+    background-color: transparent;
     width: 100%;
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: 0.15s all linear;
 }
 
-@media(min-width:1200px){
-    .container{
-        width: 1040px!important;
+.header.sticky {
+    top: 0;
+    left: 0;
+    background-color: #172b4d;
+}
+
+.header.hide {
+    top: -80px;
+}
+
+.full-screen {
+    width: 100%;
+    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1040px !important;
     }
 }
